@@ -2,7 +2,7 @@ from collections import defaultdict
 from typing import Dict
 
 
-def num_sum(num: int):
+def num_sum(num: int) -> int:
     return sum(map(int, str(num).split()))
 
 
